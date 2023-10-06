@@ -1,0 +1,55 @@
+
+
+- Relógio coordena eventos do hardware
+- Tempo de execução melhora se reduzirmos o periodo ou aumentarmos a frequência
+- CPI no mm CPU pode mudar devido ao número de instruções
+- Avaliações de performance fazem-se com nmr de instruções, CPI e frequência
+- Performance depende de: Algoritmo, Ling Prog, Compilador e ISA (afeta nmr instr, CPI e clock)
+- MIles of Instructions per Second mede performance.
+- FLOPS (floating point operations per Second) avalia tambem performance como o MIPS mas faz distinção de bits.
+- Lei de Amdahl 
+
+- MIPS-32 ISA baixa compilador ao níivel do hardware. Com set de instructions conduzido por um pipeline e produzem processo mais eficiente de instr.
+- Formatos R, I e J
+- R: 6 5 5 5 5 6 | op rs rt rd sa funct
+- I: 6 5 5 16 | op rs rt immediate
+- J: 6 26 | op jump
+- MIPS com 32 registos, 2 portas de leitura e uma de escrita. palavras de 4B
+- Tipo I: constante guardada mesmo na instrução. Tamanho máximo de 16 bits (2⁻¹⁵)
+- Shift left multiplica 2^i avança i casas para esquerda e adiciona zeros
+- Big Endian: MIPS, byte mais significativo no priemiro end da palavra.
+- Ao contrário de Jump, branch são saltos relativos. Do tipo I, com offset de 16 bits. Têm que ser guardados em próprios registos. Salta para uma instr e se for verdadeira continua.
+- beq (branch if equal) -> beq rs, rt, L1. bne
+- slt rd, rs, rt(set if less than) rd = 1 ou 0
+- slti rd, rs, constant
+- Com branch, endereço de destino é PC + offset x 4
+- Jump é absoluto e incondicional, branch é relativo e condicional
+
+- Princípio da locadalidade: CPu só requer de uma percentagem muito pequena de espaço de memória a qualquer momento durnate a execução.
+- SRAM chaches, menos denso, maior consumo, estático.
+- Localidade Temporal: se acedemos a uma zona de mem então é provável que possamos aceder de novo. (loop)
+- Localidade Espacial: Se uma zona de mem foi referenciada então é provavel que os vizinhos possam vir a ser. (Array)
+- Hit time é tempo de acesso ao bloco e ver se foi hit ou miss
+- Mapeamento Direto: um endereço associado a um indice na cache. Posiçõa do bloco na cache depende da posição na memória principal.
+- Cache de tamanho fixo, blocos maiores implicam menos blocos, o que pode levar a miss rate mais elevado
+- Compulsory: primeiro acesso ao bloco e se trás para a cache.
+- Capacity: Descartar blocos para enfiar mais
+- Conflict: Replace (mesmo indice e troca-se a tag)
+- Write-Through: Atualiza os dados na cache e memória ao mesmo tempo (necessário buffer de escrita visto que temos um atraso de estarmos a aceder a dois sitios ao mesmo tempo, que guarda os dados que estão à espera de ser escritos)
+- Write-Back: Escreve na memória e cache é atualizada mais tarde.
+- Write-Allocation: write around, blocos que ja nao se usam
+- Maneiras de carregar um bloco:
+- Blocking: palavra vai para o CPU depois do bloco ter sido carregado na cache. Com loc espacial o proximo acesso tem de ser do mesmo bloco.
+- Non-Blocking: 
+- Early-Restart:busca palavras em ordem nromal e assim que chega manda para o processador.
+- Critical word First: palavra em falta é que é mandada para o processador
+- Exemplo do res.leic para cache associativa.
+
+- páginas tamanho fixo e segmentos tamanho variável
+- miss na mem virtual é page fault
+- cada bloco corresponde a uma página
+- bit reference a 0 jánão é usado há algum tempo e usa-se LRU
+- tamanho da tabela invertida proporcional ao tamanho do espaço de endereçamento físico
+- TLB diretamente mapeada ou totalemnte assoc
+- se o offset do end virtual é >= ao index mais o offset o campo de index está incluido no offset do end virtual
+- 
