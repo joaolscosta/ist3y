@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RC/Introdução.md",
+                "file": "RC/1. Introdução.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3d5cecc0d3f93fe4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AMS/1. System Engeneering.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RC/Introdução.md",
+                "file": "AMS/1. System Engeneering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RC/Introdução.md",
+                "file": "AMS/1. System Engeneering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RC/Introdução.md"
+                "file": "AMS/1. System Engeneering.md"
               }
             }
           }
@@ -146,11 +159,11 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "fcb0b852ccab445d",
+  "active": "3d5cecc0d3f93fe4",
   "lastOpenFiles": [
+    "RC/1. Introdução.md",
+    "AMS/1. System Engeneering.md",
     "Quick Notes.md",
-    "RC/Introdução.md",
-    "Sem título.md",
     "Images",
     "Images/Pasted image 20231118123912.png",
     "Images/Pasted image 20231118121233.png",
