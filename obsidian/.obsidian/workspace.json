@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AMS/1. System Engeneering.md",
+                "file": "RC/1. Introdução.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "da75fcab0bc69d35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RC/2. Aplication Layer.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4c474631b2f6363d",
@@ -99,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AMS/1. System Engeneering.md",
+                "file": "RC/2. Aplication Layer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AMS/1. System Engeneering.md",
+                "file": "RC/2. Aplication Layer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AMS/1. System Engeneering.md"
+                "file": "RC/2. Aplication Layer.md"
               }
             }
           }
@@ -162,8 +173,9 @@
   },
   "active": "c9f4c5598a3587a2",
   "lastOpenFiles": [
-    "Images/Pasted image 20231119141059.png",
     "RC/1. Introdução.md",
+    "RC/2. Aplication Layer.md",
+    "Images/Pasted image 20231119141059.png",
     "AMS/1. System Engeneering.md",
     "Quick Notes.md",
     "Images",
