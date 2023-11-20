@@ -152,16 +152,18 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Abrir Quick Switcher": false,
+      "graph:Abrir Visualização de diagrama de grafo": false,
+      "daily-notes:Abrir nota de hoje": false,
+      "templates:Inserir templates": false,
+      "command-palette:Abrir paleta de comando": false,
       "canvas:Create new canvas": false
     }
   },
   "active": "3d5cecc0d3f93fe4",
   "lastOpenFiles": [
+    "Pasted image 20231120113824.png",
+    "Pasted image 20231120113813.png",
     "RC/1. Introdução.md",
     "RC/2. Aplication Layer.md",
     "Images/Pasted image 20231119141059.png",
