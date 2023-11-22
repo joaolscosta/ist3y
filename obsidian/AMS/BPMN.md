@@ -15,3 +15,5 @@ Messages é 1 to 1.
 Signals é broadcast.
 
 Slide 54 diferença entre time out e delay.
+
+	Compensation.
