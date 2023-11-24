@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f604acf0e3296cb4",
+        "id": "e1990b7e37c366bb",
         "type": "tabs",
         "children": [
           {
-            "id": "db864a094aa196a2",
+            "id": "fa2945131d85b696",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RC/2. Aplication Layer.md",
+                "file": "AMS/2. ReqEng.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4c474631b2f6363d",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RC/2. Aplication Layer.md",
+                "file": "AMS/2. ReqEng.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RC/2. Aplication Layer.md",
+                "file": "AMS/2. ReqEng.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RC/2. Aplication Layer.md"
+                "file": "AMS/2. ReqEng.md"
               }
             }
           }
@@ -147,18 +146,18 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "db864a094aa196a2",
+  "active": "fa2945131d85b696",
   "lastOpenFiles": [
-    "Pasted image 20231123102932.png",
-    "Pasted image 20231123102112.png",
-    "Pasted image 20231123102059.png",
+    "AMS/BPMN.md",
+    "RC/2. Aplication Layer.md",
+    "Images/Pasted image 20231123102932.png",
+    "Images/Pasted image 20231123102112.png",
+    "Images/Pasted image 20231123102059.png",
     "Images/Pasted image 20231122110922.png",
     "Images/Pasted image 20231122110814.png",
-    "AMS/BPMN.md",
     "AMS/1. System Engeneering.md",
     "AMS/2. ReqEng.md",
     "Images/Pasted image 20231121003006.png",
-    "RC/2. Aplication Layer.md",
     "RC/1. Introdução.md",
     "Images/Pasted image 20231120113824.png",
     "Images/Pasted image 20231120113813.png",
@@ -166,7 +165,6 @@
     "Quick Notes.md",
     "Images",
     "Images/Pasted image 20231118123912.png",
-    "Images/Pasted image 20231118121233.png",
     "AMS",
     "RC",
     "OC"
