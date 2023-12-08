@@ -61,3 +61,20 @@ O que dizer acerca da decisão que tomei e como pode ser implementada.
 5. Implementar:
 
 O que aprendi com a decisão e que ações tenho qeu tomar para acompanhar.
+
+
+# Aiai
+
+Questão ética: direito à água, sustentabilidade ambiental, responsabilidade corporativa, prioridades governamentais e a participação pública na tomada de decisões que afetam as comunidades locais.
+
+Princípios éticos:
+- respeito pelos direitos: acesso à água potável, inaceitável priorizar interesses da google face
+- utilitarismo: não pode ser justificado o projeto se a construçção compromete o acesso à água
+- consideração de alternativas: alternativas que não afetem o fornecimento público e exigir tecnologias mais sustentáveis para reduzir consumo
+
+Decisão Ética: Como conselheiros rever o plano de maneira a que sejam encontradas soluções menos prejudiciais a todos mas mais em conconcreto ao  uruguai e ao ambiente. Estabelecer mecanismos de monitorização para controlar a google. Construção deve então ser condicionada à garantia de não comprometer o acesso à água da população.
+
+
+
+Como conselheiros técnicos do governo uruguaio, a nossa posição sobre a viabilidade ética da construção do data center da Google no Uruguai deve ser orientada por princípios éticos sólidos. Decidimos tomar uma decisão com base nos princípios da Framework de decisão ética.
+Para tomar uma decisão temos de ter em conta as necessidades e interesses dos vários stakeholders que neste caso são: a população uruguaia, o governo, a Google, indústrias locais (como a agricultura e papel), e a comunidade internacional que utiliza os serviços da Google.
