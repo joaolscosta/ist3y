@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "8429d2347b093493",
+        "id": "455962e109a5aa35",
         "type": "tabs",
         "children": [
           {
-            "id": "ff82a0567c94b5b1",
+            "id": "b8f1cf59e410d445",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RC/3. Transport Layer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "40c1204a444d40d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4. Network Layer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aefad4f909914d45",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CC - Apresentação.md",
+                "file": "AMS/2. ReqEng.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "4c474631b2f6363d",
@@ -110,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CC - Apresentação.md",
+                "file": "AMS/2. ReqEng.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CC - Apresentação.md",
+                "file": "AMS/2. ReqEng.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CC - Apresentação.md"
+                "file": "AMS/2. ReqEng.md"
               }
             }
           }
@@ -171,24 +147,24 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "aefad4f909914d45",
+  "active": "b8f1cf59e410d445",
   "lastOpenFiles": [
-    "4. Network Layer.md",
+    "AMS/1. System Engeneering.md",
+    "AMS/2. ReqEng.md",
     "CC - Apresentação.md",
+    "4. Network Layer.md",
     "RC/3. Transport Layer.md",
     "TS.md",
     "RC/2. Aplication Layer.md",
     "Images/0003-StopAndWait.svg",
     "Images/Pasted image 20231201103253.png",
     "Images/Pasted image 20231201102417.png",
-    "AMS/2. ReqEng.md",
     "AMS/BPMN.md",
     "Images/Pasted image 20231123102932.png",
     "Images/Pasted image 20231123102112.png",
     "Images/Pasted image 20231123102059.png",
     "Images/Pasted image 20231122110922.png",
     "Images/Pasted image 20231122110814.png",
-    "AMS/1. System Engeneering.md",
     "Images/Pasted image 20231121003006.png",
     "RC/1. Introdução.md",
     "Images/Pasted image 20231120113824.png",
