@@ -8,61 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ff82a0567c94b5b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "RC/3. Transport Layer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "40c1204a444d40d6",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "aefad4f909914d45",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CC - Apresentação.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b552ba7434e324b3",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.16"
-              }
-            }
-          },
-          {
             "id": "bed9d6e071297566",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AMS/E2.md",
+                "file": "RC/2. Aplication Layer.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "4c474631b2f6363d",
@@ -128,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AMS/E2.md",
+                "file": "RC/2. Aplication Layer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AMS/E2.md",
+                "file": "RC/2. Aplication Layer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AMS/E2.md"
+                "file": "RC/2. Aplication Layer.md"
               }
             }
           }
@@ -191,12 +149,14 @@
   },
   "active": "c9f4c5598a3587a2",
   "lastOpenFiles": [
+    "RC/1. Introdução.md",
+    "RC/2. Aplication Layer.md",
+    "RC/3. Transport Layer.md",
+    "CC - Apresentação.md",
+    "RC/4. Network Layer.md",
     "AMS/E2.md",
     "4. Network Layer.md",
-    "CC - Apresentação.md",
-    "RC/3. Transport Layer.md",
     "TS.md",
-    "RC/2. Aplication Layer.md",
     "Images/0003-StopAndWait.svg",
     "Images/Pasted image 20231201103253.png",
     "Images/Pasted image 20231201102417.png",
@@ -209,7 +169,6 @@
     "Images/Pasted image 20231122110814.png",
     "AMS/1. System Engeneering.md",
     "Images/Pasted image 20231121003006.png",
-    "RC/1. Introdução.md",
     "Images/Pasted image 20231120113824.png",
     "Quick Notes.md",
     "Images",
