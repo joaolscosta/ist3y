@@ -4,30 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "650f449b075aee8a",
+        "id": "8675c3db79c64902",
         "type": "tabs",
         "children": [
           {
-            "id": "fea5a2e23d75bbc7",
+            "id": "292249a8a1cc7c69",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TS/Abordagens Éticas.md",
+                "file": "2Sem/SistDist/Teo/2ªAula.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "df36a2195582020c",
+            "id": "fbcfa3f252745edc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TS/Abordagens Éticas.md",
+                "file": "2Sem/Problemas.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "b61ba0a4894efac1",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/2ªAula 2024-02-21 21.27.32.excalidraw.md"
               }
             }
           }
@@ -81,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 273.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "4c474631b2f6363d",
@@ -97,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TS/Abordagens Éticas.md",
+                "file": "2Sem/SistDist/Teo/2ªAula.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TS/Abordagens Éticas.md",
+                "file": "2Sem/SistDist/Teo/2ªAula.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TS/Abordagens Éticas.md"
+                "file": "2Sem/SistDist/Teo/2ªAula.md"
               }
             }
           }
@@ -155,42 +166,56 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "canvas:Create new canvas": false
+      "canvas:Create new canvas": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "fea5a2e23d75bbc7",
+  "active": "292249a8a1cc7c69",
   "lastOpenFiles": [
-    "Pasted image 20240109120555.png",
+    "2Sem/Problemas.md",
+    "2Sem/SistDist/Teo/2ªAula.md",
+    "Images/Pasted image 20240221211747.png",
+    "Excalidraw/2ªAula 2024-02-21 21.27.32.excalidraw.md",
+    "Excalidraw/2ªAula 2024-02-21 21.06.44.excalidraw.md",
+    "Excalidraw/amortização.md",
+    "2Sem/SistDist/Teo/1ªAula.md",
+    "2Sem/SistDist/Labs/1. Sincronização e Exceções.md",
+    "Excalidraw/later time.md",
+    "Excalidraw/2ªAula 2024-02-21 19.49.43.excalidraw.md",
+    "Excalidraw/Drawing 2024-02-21 19.44.26.excalidraw.md",
+    "Excalidraw",
+    "2Sem/SistDist/Labs/3. Lab gRPC.md",
+    "2Sem/SistDist/Labs/2. Maeven - mvn.md",
+    "2Sem/SistDist/Teo",
+    "3. Sockets.md",
+    "2Sem/SistDist/Labs",
+    "2Sem/EngSoft/Intro.md",
+    "1Sem/TS/Abordagens Éticas.md",
+    "2Sem",
+    "1Sem",
+    "2Sem/PLic",
+    "2Sem/EngSoft",
+    "2Sem/SistDist",
+    "Images/Pasted image 20240109120555.png",
     "Images/Pasted image 20240109115031.png",
     "Images/Pasted image 20240108172521.png",
     "Images/Pasted image 20240108172455.png",
     "Images/Pasted image 20240108171503.png",
-    "TS/Exame1 - 23.md",
-    "TS/Abordagens Éticas.md",
-    "TS/TS.md",
-    "TS/2caso.md",
-    "RC/5. Data Link Layer.md",
+    "1Sem/TS/Exame1 - 23.md",
+    "1Sem/TS/TS.md",
+    "1Sem/TS/2caso.md",
+    "1Sem/RC/5. Data Link Layer.md",
     "Images/Pasted image 20240108004203.png",
     "Images/0004-broadcastLoop.svg",
     "CC - Apresentação.md",
-    "RC/4. Network Layer.md",
+    "1Sem/RC/4. Network Layer.md",
     "Images/Pasted image 20240107031532.png",
-    "RC/3. Transport Layer.md",
+    "1Sem/RC/3. Transport Layer.md",
     "Images/Pasted image 20240106193449.png",
-    "RC/2. Aplication Layer.md",
-    "Images/Pasted image 20240106184508.png",
-    "Images/Pasted image 20240106183722.png",
-    "RC/1. Introdução.md",
-    "AMS/E2.md",
-    "4. Network Layer.md",
-    "TS.md",
-    "AMS/2. ReqEng.md",
-    "AMS/BPMN.md",
-    "AMS/1. System Engeneering.md",
-    "Quick Notes.md",
+    "1Sem/RC/2. Aplication Layer.md",
+    "1Sem/RC/1. Introdução.md",
+    "1Sem/AMS/E2.md",
     "Images",
-    "AMS",
-    "RC",
-    "OC"
+    "1Sem/AMS"
   ]
 }
