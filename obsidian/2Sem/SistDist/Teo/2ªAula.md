@@ -58,6 +58,12 @@ Atribui a cada evento um carimbo de tempo (inteiro). Assim um evento A precede B
 
 Se um relógio der trigger no tempo 30. O próximo será num tempo obrigatoriamente posterior a esse.
 
+1. Cada processo com contador local.
+2. Quando envia ou recebe mensagem incrementa.
+3. Antes de enviar mensagem um processo cola o seu contador à mensagem e é escolhido o maior contador entre os dois mais um.
+
+A ordem pode não ser a correta ao longo do tempo.
+
 
 ## Algoritmo de Cristian
 
@@ -78,6 +84,16 @@ Se valor de min muito pequeno considera-se zero.
     
 5. **Limitações**: O algoritmo assume que o atraso de comunicação é simétrico e constante, o que pode não ser sempre o caso em redes reais.
 
+#### Resumindo:
+
+O servidor deve escolher o relógio com menor RTT para ter melhor precisão.
+
+O valor com que deve acertar é `tempo + RTT/2`.
+
+A precisão é `RTT / 2`.
+
+Se soubermos o tempo mínimo de envio de uma mensagem `(RTT/2) - tempoMinimo`.
+
 ## Algoritmo de Berkely
 
 Sincronização interna.
@@ -85,6 +101,11 @@ Servidor mestre lê valores dos escravos (usa _round trip time_ para estimar val
 Obtém média dos valores.
 Envia os ajustes para cada um dos escravos.
 Se mestre falha elege-se um novo.
+
+## Programa Idempotente
+
+Se o aplicarmos várias vezes ao mesmo estado inicial obtermos sempre o mesmo estado final.
+
 
 # _Network Time Protocol_ - NTP
 
@@ -109,6 +130,15 @@ __Simétrica__: Pares de servidores trocam mensagens que contêm info sobre o te
 # Relógios Lógicos
 
 # Relógios Vetoriais
+
+1. Cada processo com vetor de relógio inicializados a zero com o tamanho do número de processos.
+2. Cada vez que se manda ou recebe mensagem o seu relógio incrementa.
+3. Antes de mandar mensagem, atualiza o seu vetor, colando à mensagem.
+4. Quando o outro recebe a mensagem, atualiza o seu relógio comparando a mensagem recebida e o seu vetor.
+
+
+
+
 
 
 

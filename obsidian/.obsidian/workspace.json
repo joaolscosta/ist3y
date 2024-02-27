@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8675c3db79c64902",
+        "id": "5c45d65d2541595d",
         "type": "tabs",
         "children": [
           {
-            "id": "292249a8a1cc7c69",
+            "id": "f9bbfd980c03608e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,28 +20,19 @@
             }
           },
           {
-            "id": "fbcfa3f252745edc",
+            "id": "a2e21bdb86e5881b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2Sem/Problemas.md",
+                "file": "2Sem/SistDist/Teo/4ªAula.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "b61ba0a4894efac1",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/2ªAula 2024-02-21 21.27.32.excalidraw.md"
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2Sem/SistDist/Teo/2ªAula.md",
+                "file": "2Sem/SistDist/Teo/4ªAula.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2Sem/SistDist/Teo/2ªAula.md",
+                "file": "2Sem/SistDist/Teo/4ªAula.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2Sem/SistDist/Teo/2ªAula.md"
+                "file": "2Sem/SistDist/Teo/4ªAula.md"
               }
             }
           }
@@ -170,26 +161,33 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "292249a8a1cc7c69",
+  "active": "a2e21bdb86e5881b",
   "lastOpenFiles": [
-    "2Sem/Problemas.md",
+    "Pasted image 20240227215758.png",
+    "2Sem/SistDist/Teo/3ªAula.md",
+    "2Sem/SistDist/Teo/4ªAula.md",
     "2Sem/SistDist/Teo/2ªAula.md",
-    "Images/Pasted image 20240221211747.png",
+    "2Sem/SistDist/Labs/4. gRPC - jogo do galo.md",
+    "2Sem/SistDist/Labs/2. Maeven - mvn.md",
+    "código gRPC.md",
+    "2Sem/SistDist/Labs/1. Sincronização e Exceções.md",
+    "2Sem/SistDist/Labs/3. Lab gRPC.md",
+    "2Sem/Problemas.md",
+    "2Sem/EngSoft/Teo/2ªAula.md",
+    "2Sem/SistDist/Teo/1ªAula.md",
+    "2Sem/EngSoft/Teo/1ªAula.md",
+    "2Sem/EngSoft/Teo",
     "Excalidraw/2ªAula 2024-02-21 21.27.32.excalidraw.md",
+    "Images/Pasted image 20240221211747.png",
     "Excalidraw/2ªAula 2024-02-21 21.06.44.excalidraw.md",
     "Excalidraw/amortização.md",
-    "2Sem/SistDist/Teo/1ªAula.md",
-    "2Sem/SistDist/Labs/1. Sincronização e Exceções.md",
     "Excalidraw/later time.md",
     "Excalidraw/2ªAula 2024-02-21 19.49.43.excalidraw.md",
     "Excalidraw/Drawing 2024-02-21 19.44.26.excalidraw.md",
     "Excalidraw",
-    "2Sem/SistDist/Labs/3. Lab gRPC.md",
-    "2Sem/SistDist/Labs/2. Maeven - mvn.md",
     "2Sem/SistDist/Teo",
     "3. Sockets.md",
     "2Sem/SistDist/Labs",
-    "2Sem/EngSoft/Intro.md",
     "1Sem/TS/Abordagens Éticas.md",
     "2Sem",
     "1Sem",
@@ -208,14 +206,8 @@
     "Images/Pasted image 20240108004203.png",
     "Images/0004-broadcastLoop.svg",
     "CC - Apresentação.md",
-    "1Sem/RC/4. Network Layer.md",
     "Images/Pasted image 20240107031532.png",
-    "1Sem/RC/3. Transport Layer.md",
     "Images/Pasted image 20240106193449.png",
-    "1Sem/RC/2. Aplication Layer.md",
-    "1Sem/RC/1. Introdução.md",
-    "1Sem/AMS/E2.md",
-    "Images",
-    "1Sem/AMS"
+    "Images"
   ]
 }

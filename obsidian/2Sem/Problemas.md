@@ -70,6 +70,9 @@ O C que está no meio continua com esse tempo e os outros somam e subtraem para 
 Ajustes que os processos fazem e os seus erros.
 
 R1.2:
+
+(valor enviado) + (pedido enviado - pedido recebido / 2) - (pedido recebido)
+
 220 + ((216-200)/2) - 216 = +12
 erro = ((216-200)/2) = +-8 (enviado - pedido / 2)
 
