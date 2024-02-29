@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f9bbfd980c03608e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2Sem/SistDist/Teo/2ªAula.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a2e21bdb86e5881b",
             "type": "leaf",
             "state": {
@@ -30,9 +18,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "dce8aaf8e3e09643",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2Sem/SistDist/Teo/4ªAula.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5026054382324,
-    "collapsed": true
+    "width": 273.5026054382324
   },
   "right": {
     "id": "4c474631b2f6363d",
@@ -163,9 +161,9 @@
   },
   "active": "a2e21bdb86e5881b",
   "lastOpenFiles": [
-    "Pasted image 20240227215758.png",
     "2Sem/SistDist/Teo/3ªAula.md",
     "2Sem/SistDist/Teo/4ªAula.md",
+    "Images/Pasted image 20240227215758.png",
     "2Sem/SistDist/Teo/2ªAula.md",
     "2Sem/SistDist/Labs/4. gRPC - jogo do galo.md",
     "2Sem/SistDist/Labs/2. Maeven - mvn.md",
@@ -207,7 +205,6 @@
     "Images/0004-broadcastLoop.svg",
     "CC - Apresentação.md",
     "Images/Pasted image 20240107031532.png",
-    "Images/Pasted image 20240106193449.png",
     "Images"
   ]
 }

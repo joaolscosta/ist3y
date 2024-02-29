@@ -26,6 +26,20 @@ Processos com maior hierárquia tendem a assumir a liderança.
 3. Os processos que têm _ID_ mais alto que o que mandou a mensagem respondem com _OK_. Se um processo não receber _OK_ dentro de um dado período de tempo, assume que é o candidato com a maior hieráriquia e declara-se líder.
 4. Quando se declara notifica todos os processos e estes atualizam as suas listas de líders.
 
+## Anel
+
+Um processo p decide iniciar eleição. Marca-se como participante.
+Preparar mensagem _election(id(p))_ e envia ao próximo anel.
+Quando outro recebe esta mensagem:
+1. se o _id_ na mensagem > que ele: reencaminha ao próximo e p marca-se como participante.
+2. se o _id_ < que ele e p não participava: subsitui o _id_ na mensagem pelo de p, reencaminha ao próximo e marca-se como participante.
+3. se o _id_ é o mesmo que p torna-se líder: marca-se como participante e envia _elected(id(p))_ ao próximo anel.
+Quando um processo p recebe _elected_ reencamnha e marca-se como não participante.
+Se o _id_ na mensagem for p não faz nada e termina o algoritmo.
+
+Complexidade: 3N-1
+
+
 ![[Pasted image 20240227215758.png]]
 
 # Tentar guardaro estado global sem parar o sistema?
@@ -59,6 +73,7 @@ Nenhum processo decide que termina.
 Todos os processos vão receber um marcador (no máximo N-1) e gravar o seu estado.
 
 Mais tarde um servidor central pode obter os estados locais coerentes para construir o _snapshot global_.
+
 
 
 
