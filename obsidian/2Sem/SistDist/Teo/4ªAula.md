@@ -54,8 +54,6 @@ __Quando um processo guarda o seu estado__ -> envia um marcador a todos os outro
 
 __Quando um processo recebe uma mensagem de um marcado__ -> se este processo ainda não guardou o seu estado, então guardar o seu estado local.
 
-# NÃO ENTENDO SLIDE 26 E 27 dos slides do TAGUS
-
 # Algoritmo de _Chandy-Lamport_
 
 Parte-se do princípio que:
