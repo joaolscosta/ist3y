@@ -64,5 +64,23 @@ Réplica verifica se _prev_ < _timestamp_:
 - se sim retorna ambos os valores.
 - se não fica pendente.
 
+## Modificações
 
+Para cada moficação que um gestor de réplicas recebe:
+
+- Se não for duplicada, acrescenta ao _log_.
+- Atualiza a sua _timestamp_.
+- assim que _prev_<_timestamp_ executa a modificação.
+
+
+## Garantias
+
+Read-your-Writes: 
+- session update -> write
+- session check -> read
+
+# Bayou
+
+Operações são codificadas e têm uma ordem.
+Cancelam as operações que venham numa ordem diferente aplicando uma função de recociliação.
 
