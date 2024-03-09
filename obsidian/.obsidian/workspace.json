@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b9cd6ad60720f497",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2Sem/SistDist/Teo/7ªAula.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2Sem/SistDist/Teo/6ªAula.md",
+                "file": "2Sem/SistDist/Teo/7ªAula.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2Sem/SistDist/Teo/6ªAula.md",
+                "file": "2Sem/SistDist/Teo/7ªAula.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2Sem/SistDist/Teo/6ªAula.md"
+                "file": "2Sem/SistDist/Teo/7ªAula.md"
               }
             }
           }
@@ -184,10 +196,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "966a4a53e19cc8ab",
+  "active": "b9cd6ad60720f497",
   "lastOpenFiles": [
-    "2Sem/SistDist/Teo/5ªAula.md",
     "2Sem/SistDist/Teo/6ªAula.md",
+    "2Sem/SistDist/Teo/7ªAula.md",
+    "2Sem/SistDist/Teo/5ªAula.md",
     "Images/Pasted image 20240307111828.png",
     "2Sem/SistDist/Teo/4ªAula.md",
     "2Sem/SistDist/Teo/3ªAula.md",
@@ -228,7 +241,6 @@
     "1Sem/TS/Exame1 - 23.md",
     "1Sem/TS/TS.md",
     "1Sem/TS/2caso.md",
-    "1Sem/RC/5. Data Link Layer.md",
     "Images/Pasted image 20240108004203.png",
     "Images/0004-broadcastLoop.svg",
     "Images"
