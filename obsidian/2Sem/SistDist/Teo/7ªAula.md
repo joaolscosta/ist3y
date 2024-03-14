@@ -53,15 +53,110 @@ Operações Deterministas.
 
 ### Canais Perfeitos
 
+Garantem a entrega de mensagens ordenadas.
+
+Retransmitem uma mensagem até que seja confirmada pelo destinatário.
+Usam-se _ids_ e não se entregam mensagens com _id_ inferior a uma que já tenha sido entregue.
+
+#### Difusão Fiável
+
+Ou todos os destinatários recebem ou nenhum recebe.
+
+Existe a __regular__ e a __uniforme__.
+
+###### Regular
+
+- Mensagem _m_ enviada para processos { _p1, p2, ..., pn_ } de um destes processos.
+- Validade: se processo _pi_ envia _m_ então entregará mais tarde.
+- Não-duplicação: nenhuma mensagem _m_ é entregue mais do que uma vez.
+- _Não-criação_: se uma mensagem é entregue então foi enviada por um processo correto.
+- Acordo: Se um processo correto entrega a mensagem então todos os processos corretos também a entregarão.
+
+1. Emissor envia mensagem usando canais perfeitos para todos os membros do grupo.
+2. Quando um outro recebe entrega-a à aplicação e reenvia para todos os membros do grupo.
+
+
+#### Difusão Fiável Uniforme
+
+Só muda:
+
+- Acordo: Se um processo entrega mensagem então todos os processos corretos enviam.
+
+1. Emissor envia mensagem usando os canais perfeitos para todos os membros do grupo.
+2. Quando um outro recebe reenvia para todos os outros.
+3. Quando um receber a mensagem _m_ de _f_ membros entrega a mensagem à aplicação.
+
+- _f < N/2_
+
+#### Difusão Atómica
+
+- Se uma réplica recebe o pedido todas as réplicas recebem o pedido.
+- Todas as réplicas recebem os pedidos pela mesma ordem.
+
+# Algoritmos em caso de Falhas
+
+### Ordem total baseada em sequenciador
+
+- Mensagens enviadas para todas as réplicas usando um algoritmo de difusão fiável.
+- Uma das réplicas é eleita líder, decide a ordem e envia esta info para as réplicas restantes.
+- Quando existe uma falha por exemplo do líder pode acontecer um __estado incoerente__ (mensagens não ordenadas pelo líder, etc).
+
+# Sincronia na Vista
+
+
+> [!NOTE] Informalmente
+> Permite mudar a filiação de um grupo de processos de uma orma que facilita a tolerância a faltas.
+
+- Podem ser adicionados novos membtos a um grupo de processos.
+- Um pode sair voluntariamente ou ser expulso caso falhe.
+
+Exemplo:
+• V1 = {p1, p2, p3}
+• V2 = {p1, p2, p3, p4}
+• V3 = {p1, p2, p3, p4, p5}
+• V4 = {p2, p3, p4, p5}
+
+Um processo é __correto__ se faz parte da lista _vi_ e da lista _vi+1_.
+
+Se uma mensagem m é entregue à aplicação depois da vista Vi ser
+entregue e antes da vista Vi+1 ser entregue, a mensagem m diz-se
+que foi entregue na vista Vi.
+
+
+#### Difusão Fiável Síncrona na vista
+
+- Se um processo correto _p_ na vista _Vi_ envia uma mensagem _m_ na vista _Vi_,
+então _m_ é entregue a _p_ na vista _Vi_
+- Se um processo entrega uma mensagem m na vista Vi, todos os processos
+correctos da vista Vi entregam m na vista Vi
 
 
 
+> [!DEFINITION] Corolário
+> Dois processos que entregam a vista Vi e a vista Vi+1 entregam exactamente o
+mesmo conjunto de mensagens na vista Vi.
 
 
 
+- Para mudar a vista é necessário obrigar as aplicações interromper temporariamente a transmissão de mensagens de forma a que o conjunto de mensagens a entregar na vista seja finito
+- Para além disso, é necessário executar um algoritmo de coordenação para garantir que todos os processos correctos chegam a acordo sobre:
+- Qual a composição da próxima vista
+- Qual o conjunto de mensagens a entregar antes de mudar a vista
 
 
+# Primário-secundário (agora concretizado)
 
+Réplicas usam sincronia na vista para lidar com falha do primário:
+• Quando o primário p, algum tempo depois será entregue nova vista sem p
+• Quando nova vista é entregue e o anterior primário não consta nela, os restantes processos elegem o novo primário
+• Pode ser o primeiro membro da nova vista
+• Ou podemos usar outro algoritmo de eleição de líder
+• O novo primário anuncia o seu endereço num serviço de nomes (para que os clientes o descubram)
+Primário usa difusão fiável uniforme síncrona na vista para propagar novos estados aos secundários
+• Só reponde ao cliente quando a uniformidade está garantida
 
+# Replicação de máquina de estados (agora concretizado)
 
-
+- Processos usam sincronia na vista
+- Clientes usam difusão atómica síncrona na vista para enviar pedidos
+para todas as réplicas
