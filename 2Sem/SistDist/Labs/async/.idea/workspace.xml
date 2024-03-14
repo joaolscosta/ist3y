@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9a2cb851-c1b1-4ee1-a2ee-3a7b809a2304" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/async.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/async.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/google-java-format.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_grpc-async-solution/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_grpc-async-solution/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_grpc-async-solution/client/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_grpc-async-solution/client/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_grpc-async-solution/client/src/main/java/pt/tecnico/grpc/client/HelloClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_grpc-async-solution/client/src/main/java/pt/tecnico/grpc/client/HelloObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_grpc-async-solution/client/src/main/java/pt/tecnico/grpc/client/ResponseCollector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_grpc-async-solution/contract/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_grpc-async-solution/contract/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_grpc-async-solution/contract/src/main/proto/HelloWorld.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_grpc-async-solution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_grpc-async-solution/server/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_grpc-async-solution/server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_grpc-async-solution/server/src/main/java/pt/tecnico/grpc/server/HelloServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_grpc-async-solution/server/src/main/java/pt/tecnico/grpc/server/HelloWorldServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_grpc_solucao/client/src/main/java/pt/tecnico/grpc/client/HelloClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/example_grpc_solucao/client/src/main/java/pt/tecnico/grpc/client/HelloClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_grpc_solucao/server/src/main/java/pt/tecnico/grpc/server/HelloWorldServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/example_grpc_solucao/server/src/main/java/pt/tecnico/grpc/server/HelloWorldServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_grpc-main/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_grpc-main/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_grpc-main/client/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_grpc-main/client/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_grpc-main/client/src/main/java/pt/tecnico/grpc/client/HelloClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_grpc-main/contract/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_grpc-main/contract/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_grpc-main/contract/src/main/proto/HelloWorld.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_grpc-main/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_grpc-main/server/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_grpc-main/server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_grpc-main/server/src/main/java/pt/tecnico/grpc/server/HelloServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_grpc-main/server/src/main/java/pt/tecnico/grpc/server/HelloWorldServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_java-app-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_java-app-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_java-app-master/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_java-app-master/src/main/java/mypackage/MyClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_java-lib-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_java-lib-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_java-lib-master/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_java-lib-master/src/main/java/pt/tecnico/ConfigHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_java-lib-master/src/test/java/pt/tecnico/ConfigHelperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_java-lib-master/src/test/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_ttt-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_ttt-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_ttt-master/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_ttt-master/src/main/java/ttt/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_ttt-master/src/main/java/ttt/TTT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise_java-sockets-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise_java-sockets-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise_java-sockets-master/client/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise_java-sockets-master/client/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise_java-sockets-master/client/src/main/java/pt/tecnico/sockets/SocketClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise_java-sockets-master/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise_java-sockets-master/server/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise_java-sockets-master/server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise_java-sockets-master/server/src/main/java/pt/tecnico/sockets/SocketServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise_ttt-grpc_solution-first/exercise_ttt-grpc_solution-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise_ttt-grpc_solution-first/exercise_ttt-grpc_solution-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise_ttt-grpc_solution-first/exercise_ttt-grpc_solution-master/client/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise_ttt-grpc_solution-first/exercise_ttt-grpc_solution-master/client/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise_ttt-grpc_solution-first/exercise_ttt-grpc_solution-master/client/src/main/java/pt/tecnico/ttt/client/TTTClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise_ttt-grpc_solution-first/exercise_ttt-grpc_solution-master/contract/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise_ttt-grpc_solution-first/exercise_ttt-grpc_solution-master/contract/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise_ttt-grpc_solution-first/exercise_ttt-grpc_solution-master/contract/src/main/proto/tttgame.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise_ttt-grpc_solution-first/exercise_ttt-grpc_solution-master/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise_ttt-grpc_solution-first/exercise_ttt-grpc_solution-master/server/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise_ttt-grpc_solution-first/exercise_ttt-grpc_solution-master/server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise_ttt-grpc_solution-first/exercise_ttt-grpc_solution-master/server/src/main/java/pt/tecnico/ttt/server/TTTGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise_ttt-grpc_solution-first/exercise_ttt-grpc_solution-master/server/src/main/java/pt/tecnico/ttt/server/TTTServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise_ttt-grpc_solution-first/exercise_ttt-grpc_solution-master/server/src/main/java/pt/tecnico/ttt/server/TTTServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise_ttt-grpc_solution/.idea/workspace.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/example_grpc_solucao" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2dUqzZoJRrLSVuYLokVdjARR4Rq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "async-solution",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/jony/Documents/A48-TupleSpaces",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a2cb851-c1b1-4ee1-a2ee-3a7b809a2304" name="Changes" comment="" />
+      <created>1710073267859</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710073267859</updated>
+      <workItem from="1710073268843" duration="6586000" />
+      <workItem from="1710153295786" duration="732000" />
+      <workItem from="1710271429532" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

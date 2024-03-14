@@ -13,6 +13,8 @@ para a frente.
 - Os novos processos lêem o último estado guardado e recomeçam a partir desse último - estado.
 - Chama-se ___checkpoint-recovery___.
 
+Existe um primário que está a trabalhar e secundários que estão em _standby_ à espera que o primário falhe para um deles continuar no mesmo estado e não perder informação.
+
 > [!NOTE] Basicamente
 > Os estados guardados pelos vários processos que falharam devem estar
 mutuamente coerentes.
@@ -22,6 +24,9 @@ mutuamente coerentes.
 - Várias réplicas do processo.
 - Quando uma réplica é alterada todas as outras também o têm de ser.
 - Se uma réplica falha os clientes podem usar outra réplica.
+
+Aqui todas as réplicas estão a trabalhar. Trabalham em simultâneo e distribui-se a carga. As solicitações chegam a todas as réplicas e combinadas respondem.
+
 
 > [!NOTE] Basic
 > Os estado das réplicas que sobrevivem devem estar mútuamente coerentes.
@@ -76,6 +81,10 @@ Existe a __regular__ e a __uniforme__.
 2. Quando um outro recebe entrega-a à aplicação e reenvia para todos os membros do grupo.
 
 
+> [!NOTE] Resumindo
+> Um nó envia a mensagem a todos os outros nós de um dado grupo. Os que já receberam mensagem reenviam a mensagem para os que não receberam e continua este processoa até que todos recebam.
+
+
 #### Difusão Fiável Uniforme
 
 Só muda:
@@ -87,6 +96,11 @@ Só muda:
 3. Quando um receber a mensagem _m_ de _f_ membros entrega a mensagem à aplicação.
 
 - _f < N/2_
+
+
+> [!NOTE] Resumindo
+> Nesta é o mesmo processo mas em vez de ser apenas de um dado grupo é para todo o sistema.
+
 
 #### Difusão Atómica
 
@@ -102,7 +116,6 @@ Só muda:
 - Quando existe uma falha por exemplo do líder pode acontecer um __estado incoerente__ (mensagens não ordenadas pelo líder, etc).
 
 # Sincronia na Vista
-
 
 > [!NOTE] Informalmente
 > Permite mudar a filiação de um grupo de processos de uma orma que facilita a tolerância a faltas.
