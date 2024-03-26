@@ -4,83 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "fc1f865d8344f0ff",
+        "id": "68e8b32c6850d404",
         "type": "tabs",
         "children": [
           {
-            "id": "8ed7802d95058e08",
+            "id": "d5d9fa9ee87790e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2Sem/SistDist/Teo/3ªAula.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d1069e91a478be35",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2Sem/SistDist/Teo/4ªAula.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "21715a83464b2257",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2Sem/SistDist/Teo/5ªAula.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "966a4a53e19cc8ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2Sem/SistDist/Teo/6ªAula.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b9cd6ad60720f497",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2Sem/SistDist/Teo/7ªAula.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a7baebc1838ba33",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2Sem/SistDist/Teo/8ªAula.md",
+                "file": "2Sem/SistDist/Teo/9ªAula.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2Sem/SistDist/Teo/8ªAula.md",
+                "file": "2Sem/SistDist/Teo/9ªAula.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2Sem/SistDist/Teo/8ªAula.md",
+                "file": "2Sem/SistDist/Teo/9ªAula.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2Sem/SistDist/Teo/8ªAula.md"
+                "file": "2Sem/SistDist/Teo/9ªAula.md"
               }
             }
           }
@@ -208,15 +147,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6a7baebc1838ba33",
+  "active": "d5d9fa9ee87790e5",
   "lastOpenFiles": [
-    "2Sem/SistDist/Teo/7ªAula.md",
+    "2Sem/Problemas.md",
+    "2Sem/SistDist/Teo/9ªAula.md",
+    "2Sem/SistDist/Teo/3ªAula.md",
     "2Sem/SistDist/Teo/8ªAula.md",
+    "2Sem/SistDist/Teo/7ªAula.md",
     "2Sem/SistDist/Teo/6ªAula.md",
     "2Sem/SistDist/Teo/5ªAula.md",
     "Images/Pasted image 20240307111828.png",
     "2Sem/SistDist/Teo/4ªAula.md",
-    "2Sem/SistDist/Teo/3ªAula.md",
     "Images/Pasted image 20240227215758.png",
     "2Sem/SistDist/Teo/2ªAula.md",
     "2Sem/SistDist/Labs/4. gRPC - jogo do galo.md",
@@ -224,7 +165,6 @@
     "código gRPC.md",
     "2Sem/SistDist/Labs/1. Sincronização e Exceções.md",
     "2Sem/SistDist/Labs/3. Lab gRPC.md",
-    "2Sem/Problemas.md",
     "2Sem/EngSoft/Teo/2ªAula.md",
     "2Sem/SistDist/Teo/1ªAula.md",
     "2Sem/EngSoft/Teo/1ªAula.md",
@@ -252,7 +192,6 @@
     "Images/Pasted image 20240108172455.png",
     "Images/Pasted image 20240108171503.png",
     "1Sem/TS/Exame1 - 23.md",
-    "1Sem/TS/TS.md",
     "Images/Pasted image 20240108004203.png",
     "Images/0004-broadcastLoop.svg",
     "Images"
