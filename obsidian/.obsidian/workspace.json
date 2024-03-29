@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "68e8b32c6850d404",
+        "id": "fc1f865d8344f0ff",
         "type": "tabs",
         "children": [
           {
-            "id": "d5d9fa9ee87790e5",
+            "id": "2c45bef81b7104e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2Sem/SistDist/Teo/9ªAula.md",
+                "file": "2Sem/EngSoft/Teo/1ª e 2ªSemana.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "51d17b3977394d9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3ª Semana.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5026054382324
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "4c474631b2f6363d",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2Sem/SistDist/Teo/9ªAula.md",
+                "file": "3ª Semana.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2Sem/SistDist/Teo/9ªAula.md",
+                "file": "3ª Semana.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2Sem/SistDist/Teo/9ªAula.md"
+                "file": "3ª Semana.md"
               }
             }
           }
@@ -147,17 +161,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d5d9fa9ee87790e5",
+  "active": "51d17b3977394d9c",
   "lastOpenFiles": [
+    "2Sem/EngSoft/Teo/1ª e 2ªSemana.md",
+    "3ª Semana.md",
+    "Images/Pasted image 20240326174015.png",
+    "Images/Pasted image 20240326172757.png",
+    "2Sem/EngSoft/Teo/2ªAula.md",
     "2Sem/Problemas.md",
-    "2Sem/SistDist/Teo/9ªAula.md",
-    "2Sem/SistDist/Teo/3ªAula.md",
-    "2Sem/SistDist/Teo/8ªAula.md",
     "2Sem/SistDist/Teo/7ªAula.md",
     "2Sem/SistDist/Teo/6ªAula.md",
     "2Sem/SistDist/Teo/5ªAula.md",
-    "Images/Pasted image 20240307111828.png",
     "2Sem/SistDist/Teo/4ªAula.md",
+    "2Sem/SistDist/Teo/9ªAula.md",
+    "2Sem/SistDist/Teo/8ªAula.md",
+    "Images/Pasted image 20240307111828.png",
+    "2Sem/SistDist/Teo/3ªAula.md",
     "Images/Pasted image 20240227215758.png",
     "2Sem/SistDist/Teo/2ªAula.md",
     "2Sem/SistDist/Labs/4. gRPC - jogo do galo.md",
@@ -165,9 +184,7 @@
     "código gRPC.md",
     "2Sem/SistDist/Labs/1. Sincronização e Exceções.md",
     "2Sem/SistDist/Labs/3. Lab gRPC.md",
-    "2Sem/EngSoft/Teo/2ªAula.md",
     "2Sem/SistDist/Teo/1ªAula.md",
-    "2Sem/EngSoft/Teo/1ªAula.md",
     "2Sem/EngSoft/Teo",
     "Excalidraw/2ªAula 2024-02-21 21.27.32.excalidraw.md",
     "Images/Pasted image 20240221211747.png",
@@ -191,9 +208,6 @@
     "Images/Pasted image 20240108172521.png",
     "Images/Pasted image 20240108172455.png",
     "Images/Pasted image 20240108171503.png",
-    "1Sem/TS/Exame1 - 23.md",
-    "Images/Pasted image 20240108004203.png",
-    "Images/0004-broadcastLoop.svg",
     "Images"
   ]
 }
