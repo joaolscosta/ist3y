@@ -10,6 +10,10 @@ Vários processos usam os mesmos recursos e tem que se escolher qual processo de
 4. Quando termina de usar notifica o mestre para que mande vir o próximo ou seja, envia a chave ao metre para este enviar para o próximo cliente.
 5. O mestre pode falhar e aí o sistema bloqueia e elege-se um novo.
 
+Mestre/Servidor pode ficar sobrecarregado.
+Se falhar sistema down.
+Chave tem sempre que passar pelo servidor.
+
 
 ## Solução Descentralizada
 ### Algoritmo de _Ricart y Agrawala_
@@ -19,6 +23,9 @@ Vários processos usam os mesmos recursos e tem que se escolher qual processo de
 3. Quando um processo recebe uma mensagem compara os _timestamps_. Se na altura que recebe já não quer o dado recurso passa logo ao próximo, caso contrário regista na lista de respostas.
 4. Quando já recebeu todas as respostas pode conceder acesso ao recurso (enviar a chave diretamente a outro processo) ou aceder ele se o seu _timestamp_ for menor que todos os outros dos outros processos.
 5. Quando termina de usar, informa todos os outros processos para que atualizem os seus estados.
+
+Permite a um cliente passar a chave diretamente a outro cliente.
+Em vez de sobrecarregar um processo sobrecarrega todos.
 
 ## Solução P2P
 Não existe nenhum líder, todos os processos processos colaboram.
@@ -43,3 +50,6 @@ concorrentes nunca conseguem, cada um, receber os votos de quóruns inteiros.
 - __Centralizada__: não tolera a falha do coordenador,mas tolera falha de cliente que não detenha nem tenha pedido o token
 - ___Ricart&Agrawala___: não toleram a falha de qualquer processo
 - ___Maekawa___: tolera a falha dos processos que não esteja no quórum
+
+![[Pasted image 20240331154359.png]]
+

@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "fc1f865d8344f0ff",
+        "id": "51d110dce6be6125",
         "type": "tabs",
         "children": [
           {
-            "id": "2c45bef81b7104e6",
+            "id": "db1eae2eaa069c9e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2Sem/EngSoft/Teo/1ª e 2ªSemana.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "51d17b3977394d9c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3ª Semana.md",
+                "file": "2Sem/SistDist/Teo/5ªAula.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3ª Semana.md",
+                "file": "2Sem/SistDist/Teo/5ªAula.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3ª Semana.md",
+                "file": "2Sem/SistDist/Teo/5ªAula.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3ª Semana.md"
+                "file": "2Sem/SistDist/Teo/5ªAula.md"
               }
             }
           }
@@ -161,43 +148,47 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "51d17b3977394d9c",
+  "active": "db1eae2eaa069c9e",
   "lastOpenFiles": [
-    "2Sem/EngSoft/Teo/1ª e 2ªSemana.md",
-    "3ª Semana.md",
-    "Images/Pasted image 20240326174015.png",
-    "Images/Pasted image 20240326172757.png",
-    "2Sem/EngSoft/Teo/2ªAula.md",
-    "2Sem/Problemas.md",
-    "2Sem/SistDist/Teo/7ªAula.md",
     "2Sem/SistDist/Teo/6ªAula.md",
     "2Sem/SistDist/Teo/5ªAula.md",
     "2Sem/SistDist/Teo/4ªAula.md",
+    "2Sem/EngSoft/Teo/7ªSemana.md",
+    "2Sem/EngSoft/Teo/6ªSemana.md",
+    "Images/Pasted image 20240331195211.png",
+    "Untitled.canvas",
+    "2Sem/EngSoft/Teo/5ªSemana.md",
+    "2Sem/EngSoft/Teo/4ªSemana.md",
+    "2Sem/SistDist/Teo/3ªAula.md",
+    "Images/Pasted image 20240331154359.png",
+    "2Sem/EngSoft/Teo/3ª Semana.md",
+    "Images/Pasted image 20240329224724.png",
+    "2Sem/EngSoft/Teo/1ª e 2ªSemana.md",
+    "2Sem/Problemas.md",
+    "2Sem/SistDist/Teo/2ªAula.md",
+    "2Sem/SistDist/Teo/1ªAula.md",
+    "Images/Pasted image 20240326174015.png",
+    "Images/Pasted image 20240326172757.png",
+    "2Sem/EngSoft/Teo/2ªAula.md",
+    "2Sem/SistDist/Teo/7ªAula.md",
     "2Sem/SistDist/Teo/9ªAula.md",
     "2Sem/SistDist/Teo/8ªAula.md",
     "Images/Pasted image 20240307111828.png",
-    "2Sem/SistDist/Teo/3ªAula.md",
     "Images/Pasted image 20240227215758.png",
-    "2Sem/SistDist/Teo/2ªAula.md",
     "2Sem/SistDist/Labs/4. gRPC - jogo do galo.md",
     "2Sem/SistDist/Labs/2. Maeven - mvn.md",
     "código gRPC.md",
     "2Sem/SistDist/Labs/1. Sincronização e Exceções.md",
     "2Sem/SistDist/Labs/3. Lab gRPC.md",
-    "2Sem/SistDist/Teo/1ªAula.md",
     "2Sem/EngSoft/Teo",
     "Excalidraw/2ªAula 2024-02-21 21.27.32.excalidraw.md",
     "Images/Pasted image 20240221211747.png",
     "Excalidraw/2ªAula 2024-02-21 21.06.44.excalidraw.md",
     "Excalidraw/amortização.md",
     "Excalidraw/later time.md",
-    "Excalidraw/2ªAula 2024-02-21 19.49.43.excalidraw.md",
-    "Excalidraw/Drawing 2024-02-21 19.44.26.excalidraw.md",
     "Excalidraw",
     "2Sem/SistDist/Teo",
-    "3. Sockets.md",
     "2Sem/SistDist/Labs",
-    "1Sem/TS/Abordagens Éticas.md",
     "2Sem",
     "1Sem",
     "2Sem/PLic",
@@ -205,9 +196,6 @@
     "2Sem/SistDist",
     "Images/Pasted image 20240109120555.png",
     "Images/Pasted image 20240109115031.png",
-    "Images/Pasted image 20240108172521.png",
-    "Images/Pasted image 20240108172455.png",
-    "Images/Pasted image 20240108171503.png",
     "Images"
   ]
 }

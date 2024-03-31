@@ -50,20 +50,6 @@ Existem incertezas.
 P1 estima valor de relógio do P2 no instante t4 é `X + Message Delay`.
 
 O problema é que não que consegue saber ao certo t3 então vai haver um erro
-### Relógio de Lamport
-
-Lógico.
-Não reflete tempo real mas sim a ordem dos eventos.
-Atribui a cada evento um carimbo de tempo (inteiro). Assim um evento A precede B em que o tempo de A é menor que B.
-
-Se um relógio der trigger no tempo 30. O próximo será num tempo obrigatoriamente posterior a esse.
-
-1. Cada processo com contador local.
-2. Quando envia ou recebe mensagem incrementa.
-3. Antes de enviar mensagem um processo cola o seu contador à mensagem e é escolhido o maior contador entre os dois mais um.
-
-A ordem pode não ser a correta ao longo do tempo.
-
 
 ## Algoritmo de Cristian
 
@@ -88,7 +74,7 @@ Se valor de min muito pequeno considera-se zero.
 
 O servidor deve escolher o relógio com menor RTT para ter melhor precisão.
 
-O valor com que deve acertar é `tempo + RTT/2`.
+O valor com que deve acertar é `tempo do menor RTT + RTT/2`.
 
 A precisão é `RTT / 2`.
 
@@ -100,7 +86,14 @@ Sincronização interna.
 Servidor mestre lê valores dos escravos (usa _round trip time_ para estimar valores).
 Obtém média dos valores.
 Envia os ajustes para cada um dos escravos.
+Para tolerar falhas não considera aqueles com desvios de tempo exagerados.
 Se mestre falha elege-se um novo.
+
+Para acertar:
+
+1. Faz-se a média dos três tempos em segundos e dessa média faz-se a subtração ou soma a cada um desses três tempos para ver quantos segundos se tem que somar ou subtrair.
+
+Ver exercício que fiz no caderno, percebi.
 
 ## Programa Idempotente
 
@@ -128,6 +121,21 @@ __Invocação Remota (Cristian)__: Servidor aceita pedidos de outros. Responde c
 __Simétrica__: Pares de servidores trocam mensagens que contêm info sobre o tempo. Para maior precisão. É aqui que acontece a cena de a mensagem ser enviada x tempo mais tarde para sincronização.
 
 # Relógios Lógicos
+
+### Relógio de Lamport
+
+Lógico.
+Não reflete tempo real mas sim a ordem dos eventos.
+Atribui a cada evento um carimbo de tempo (inteiro). Assim um evento A precede B em que o tempo de A é menor que B.
+
+Se um relógio der trigger no tempo 30. O próximo será num tempo obrigatoriamente posterior a esse.
+
+1. Cada processo com contador local.
+2. Quando envia ou recebe mensagem incrementa.
+3. Antes de enviar mensagem um processo cola o seu contador à mensagem e é escolhido o maior contador entre os dois mais um.
+
+A ordem pode não ser a correta ao longo do tempo.
+
 
 # Relógios Vetoriais
 

@@ -10,6 +10,10 @@ Garante replicação, se um falha outros continuam.
 
 Geralmente o utilizador não vê as mensagens e sim o espaço partilhado de memória.
 
+# Idempotente
+
+Operação que se executada repetidamente produz sempre o mesmo resultado.
+
 ## _Remote Procedure Call - RPC_
 
 
@@ -49,6 +53,7 @@ A última solução é enviar apenas uma vez mas com identificadores _UID_ nos p
 ## Serviço de Nomes - _nameserver_
 
 Envia-se uma _string_ `www.exemplo.com` e recebe-se um `IP`. ___DNS__ é um exemplo.
+Dado um nome saber um endereço.
 
 ### _Load Balancing_
 
@@ -63,6 +68,10 @@ Em cada organização existe um servidor que faz a resolução e guarda os dados
 Funciona como cache e pode gerar problemas de coerência.
 
 Usa nomes hierárquicos.
+
+## UDP
+
+AS mensagens podem perder-se, chegar repetidas ou chegarem fora de ordem.
 
 
 

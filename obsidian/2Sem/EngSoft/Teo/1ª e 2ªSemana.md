@@ -129,6 +129,70 @@ Estas duas são complementares.
 
 Importante para large systems em que novas features não partam as anteriores.  
 
+# Stages of Testing
+
+- __Development Testing__: O sistema é tetado durante o seu desenvolvimento para descobrir bugs e defeitos. Isto pelos __desenvolvidores__.
+- __Release Testing__: Onde uma __equipa de engenheiros à parte__ testa antes de ser released para os users.
+- __User Testing__: Os próprios __users__ testam à sua maneira.
+
+Development Testing:
+
+1. Unit testing
+2. Component testing
+3. System testing
+
+# Estratégias de Testing
+
+### Black Box Testing
+
+Teste para uma dada especificação. Testes com uma descrição usada para produzir o software.
+
+### White Box Testing
+
+Teste para uma dada implementação.
+Testes orientados pela própria descrição do artefacto.
+
+# Partition Testing
+
+Identificar um pequeno conjunto de casos de teste que tem alta probabilidade de dar erro.
+
+# Unit Testing
+
+Testar componentes isolados.
+Estes podem ser funções com objetos com atributos.
+Tem o objetivo de aumentar confiabilidade em componentes isolados primeiro para depois testar em conjunto.
+
+# Automated Testing
+
+Testes tem que ser automatizados de maneira a que não precisem de ser testados manualmente.
+
+### Automated Test Components
+
+- __Setup part__ em que inicia o sistema com um teste.
+- __Call part__ onde chamas o objeto ou função a ser testada.
+- __Assertion part__ em que se compara o resultado do teste com o expected.
+
+# Test Doubles
+
+Teste em que não se usa um objeto real e sim um falso.
+
+Podem ser:
+
+- __Dummy objects__ são usados para preencher parametros e não para serem de facto usados.
+- __Fake objects__ usados para algum tipo de atalho
+- __Stubs__ tem respostas para chamadas durante o teste.
+- __Spies__ Stubs mas podem guardar cenas.
+- __Mocks__ objetos pre-programados com base nas chamadas com que eles são esperados.
+
+Vantagens:
+
+- unidades isoladas.
+- reduz dependências entre equipas.
+- reduz preocupações com data base.
+
+
+
+
 
 
 

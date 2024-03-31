@@ -17,6 +17,11 @@ O estado da aplicação tem:
 
 # Eleição de Líder
 
+Queremos assegurar:
+
+- safety: todos os processos escolhem o mesmo líder.
+- liveness: o algoritmo termina.
+
 ## Bully
 
 Processos com maior hierárquia tendem a assumir a liderança.
