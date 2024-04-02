@@ -8,15 +8,15 @@ Um sistema replicado diz-se __linearizável__ se:
 # Registos
 Ler escrever. Muitos podem ler mas so um escreve.
 
-
-### Atomic
+## Três Modelos de Coerência para Registos
+### Registos Atomic
 É equivalalente à linearizabilidade. As escritas e leituras ocorrem num ponto entre o inicio e fim da operação.
 
-### Regular
-Se uma leitura anão for concorrente com escrita, lê último valor escrito.
+### Registos Regular
+Se uma leitura não for concorrente com escrita, lê último valor escrito.
 Se sim lê ultimo ou esse.
 
-### Safe
+### Registos Safe
 Se for concorrente pode lançar um valor arbitrário.
 
 ## Continuando
@@ -34,8 +34,8 @@ __Durablidade__: Permanência dos dados.
 
 Escrita:
 
-1. W incrementa número da versão e envia tuplo para todos os processos.
-2. Ao receberem, atualualizam a cópia do registo (se a versão for superior) e envia confirmação.
+1. O escritor incrementa número da versão e envia tuplo para todos os processos.
+2. Ao receberem, atualizam a cópia do registo (se a versão for superior) e envia confirmação.
 3. Acaba esta escrita quando receber maioria.
 
 Leitura:
@@ -59,5 +59,7 @@ Operações executadas de maneira consistente para todos os nós.
 
 1. Tem uma ordem sequencial que deve ser respeitada.
 2. Se uma opA precede opB num nó, para todos os outros têm  que saber disto mesmo que opB se execute primeiro.
+
 ![[Pasted image 20240307111828.png]]
 
+![[Pasted image 20240401140717.png]]

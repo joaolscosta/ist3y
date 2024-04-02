@@ -22,6 +22,8 @@ para R3
 • A réplica R3 recebe “pintar círculo” antes de ter recebido a operação “criar
 círculo”. Isto pode gerar um erro.
 
+Relação "aconteceu-antes".
+
 # Suportar clientes móveis
 
 - ___Read-your-writes___ - cliente após escrebveu pode ler o que escreveu e não algo já atualizado.
@@ -38,7 +40,7 @@ ___Batching___: divididas em lotes antes de serem replicadas.
 __Assincronia__: Escritas enviadas de maneira assíncrona e não tem que se esperar pela confirmação para continuar a executar operações.
 __Replicação Incremental__: Em vez de replicar todo o nó replica-se apenas o que foi incrementado.
 
-# _Gossip Architeture_
+# _Gossip Architeture_ (Lazy Rep)
 
 Sacrifica a coerência mas:
 
